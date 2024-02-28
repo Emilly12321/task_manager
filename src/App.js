@@ -1,8 +1,14 @@
+import React from "react";
+import "./Backend/app/Routes/index";
 import { AppRouter } from "./Backend/app/Routes/index";
 import "./Frontend/assets/global.css";
 
-export const App = () => {
+const App = () => {
   return (
-    <AppRouter />
+    <div>
+      <AppRouter />
+    </div>
   );
-}
+};
+
+export default App;

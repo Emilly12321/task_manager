@@ -2,27 +2,29 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { LayoutComponents } from "../../Components/LayoutComponents"
 
-import jpIMG from '../../assets/jp.svg'
+
 
 
 export const Register = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [name, setName] = useState("")
+  
+    
 
     return (
         <LayoutComponents >
             <form className="login-form">
                 <span className="login-form-title"> Criar Conta </span>
 
-                <span className="login-form-title">
-                    <img src={jpIMG} alt="Jovem Programador" />
-                </span>
+                <br />
+                <br />
+                <br />
 
                 <div className="wrap-input">
                     <input
                         className={name !== "" ? "has-val input" : "input"}
-                        type="email"
+                        type="name"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                     />

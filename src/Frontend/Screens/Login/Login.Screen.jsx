@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import jpIMG from "../../assets/jp.svg";
 import { LayoutComponents } from "../../Components/LayoutComponents";
 
 export const Login = () => {
@@ -11,9 +10,9 @@ export const Login = () => {
             <form className="login-form">
                 <span className="login-form-title"> Bem vindo </span>
 
-                <span className="login-form-title">
-                    <img src={jpIMG} alt="Jovem Programador" />
-                </span>
+               <br />
+               <br />
+               <br />
 
                 <div className="wrap-input">
                     <input
